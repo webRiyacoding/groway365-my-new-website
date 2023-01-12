@@ -1,0 +1,512 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --brand-secondary: #0f1941;
+    --font-family: Graphik,Tahoma,"sans-serif";
+    --main-color:rgb(25, 91, 25);
+    --white:#fff;
+
+}
+
+
+.navbar{
+    border-bottom: 1px solid rgba(89, 84, 84, 0.412)!important;
+}
+
+.navbar-toggler {
+
+    color: rgb(5, 13, 105)!important;
+    }
+    
+     .navbar-light .navbar-toggler span {
+      color: #0c0767!important;
+      font-size: 35px!important;
+      
+    
+    }
+.img-div{
+    padding: 0px 50px;
+}
+.navbar-nav a{
+    padding: 20px!important;
+
+    text-decoration: none;
+    color: black!important;
+    font-size: 18px!important;
+    text-transform:capitalize;
+    font-family: var(--font-family)!important;
+    
+    
+}
+.navbar-nav a:hover{
+    border-bottom:1px solid rgb(23, 34, 26)!important;
+    color: rgb(9, 28, 9)!important;
+    font-weight: 600;   
+}
+/* ===============================hero-section===================================== */
+.human-forward{
+    padding: 20px;
+
+}
+.human-forward p{
+    color: black;
+}
+ .main-project{
+    
+    display: flex;
+    
+} 
+.project{
+    
+
+    position: relative;
+}
+
+.project img{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.project .overlay{
+    background:linear-gradient(to bottom, rgba(9, 32, 50, 0.2),rgba(9, 32, 50) );
+    position: absolute;
+    width:92.5% ;
+    height: 150px;
+    bottom: 0;
+    left: 0;
+   
+}
+.project .content{
+    
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding: 30px;
+}
+.project h1,
+.project h6{
+
+    color: #fff;
+}
+.project h6{
+font-size: 14px;
+text-transform: uppercase;
+letter-spacing: 1px;
+text-align: left;
+
+
+}
+.project h6::before{
+
+    content:'';
+
+    width: 100%;
+    background-color: var(--orange);
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+/* ==============how to work=========================== */
+.how-to-work{
+    
+    background-color: #0f1941;
+    margin-top: 100px;
+
+}
+.how-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.my-container{
+    padding: 100px;
+}
+.how-to-work h1,p{
+    color: var(--white);
+    padding-bottom: 20px;
+}
+.how-to-work h1{
+    font-size: 35px;
+    font-family: var(--font-family);
+}
+.how-to-work p{
+    font-size: 20px;
+}
+.give-btn{
+    border: 2px solid white;
+    color: #fff;
+    padding: 10px 30px;
+    background-color: #0f1941;
+    text-transform: lowercase;
+    font-weight: 600;
+}
+.give-btn:hover{
+
+    background-color: #fff;
+    color: #0f1941;
+}
+/* =============================our-services=========================================== */
+.our-services h1{
+    text-align: center;
+    font-size: 35px;
+    color: #1a2b6c;
+    font-weight: 700;
+    font-family: var(--font-family);
+    padding-bottom: 20px;
+
+}
+.card-image:hover{
+    
+        
+    
+    transition: all 1s;
+    transform : scale(1.5);
+    
+    
+}
+.card-body h5{
+    color: #132c93!important;
+}
+.card-text{
+    padding: 10px 0px;
+    color: black;
+}
+.btn{
+    color: blue!important;
+    font-weight: 700;
+    font-family: var(--font-family);
+
+}
+/* ====================litle about us================================= */
+.little-about-img:hover{
+    transition: all 2s;
+    -webkit-transform: rotateX(-360deg);
+        -ms-transform: rotateX(-360deg);
+        transform: rotateX(-360deg);
+
+}
+.little-about h1{
+    color: #1a2b6c;
+    padding: 20px 0px;
+    font-family: var(--font-family);
+    font-weight: 600;
+}
+.little-about p{
+    color: black;
+
+}
+/* ==========================why-groway==================================== */
+.Why-groway h1{
+    text-align: center;
+    font-size: 35px;
+    color: #1a2b6c;
+    font-weight: 700;
+    font-family: var(--font-family);
+    padding-bottom: 20px;
+
+}
+.main-card{
+    width: 20rem;
+    padding: 20px;
+    
+  box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.04);
+  text-align: center;
+
+}
+.main-card:hover{
+    transform: scale(1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+  
+}
+.main-card img{
+    width: 5rem!important;
+    
+    
+
+}
+.card-heading{
+    font-size: 25px;
+    
+}
+/* ===========================make-meaningful================================= */
+
+
+.make-meaningful-container{
+
+    width: 100%;
+    background: url(img/company-project.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:0 71.9125px;
+    padding:10rem 0;
+}
+.make-meaningful-container h2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 2;
+
+}
+.make-meaningful-container p{
+
+    color: #fff;
+    font-weight: 400;
+    background-color: #1a2a6c80;
+    padding: 20px;
+
+}
+.main-btn{
+    border: none;
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 30px;
+    margin-top: 100px;   
+}
+/* =================contact-now============================ */
+.contact-btn button{
+
+    background-color: #0c04aa;
+    color: #fff;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.connect-info{
+
+    position: relative;
+}
+
+
+.connect-info .contact-overlay{
+    background:#0a1543de;
+    position: absolute;
+    width:96.54%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    
+   
+}
+.connect-info .contact{
+    
+    position: absolute;
+    width: 100%;
+    top: 30px;
+    bottom: 0;
+    left: 0;
+    padding: 100px;
+}
+.connect-info h1,
+.connect-info h6{
+
+    text-align: center;
+    color: #fff;
+    padding-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.connect-info h6{
+font-size: 14px;
+text-transform: uppercase;
+letter-spacing: 1px;
+text-align: center;
+
+
+}
+.connect-info h6::before{
+
+    content:'';
+    width: 100%;
+    background-color: var(--orange);
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+.contact-btn{
+text-align: center;
+padding-top: 20px;
+}
+/* =====================sign in==================================== */
+
+input ,label{
+    font-size: 18px;
+    font-weight: 600;
+}
+input[type=text], select, textarea {
+    font-size: 20px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    resize: vertical;
+    color: #000;
+  }
+  
+  input[type=submit] { 
+    margin-top: 20px;
+    background-color: #0c04aa;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #4548a0;
+  }
+  
+  .my-container-contact {
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 20px;
+  }
+  .contact-Us {
+    text-align: center;
+    padding: 50px 0px;
+    color: #0c04aa;
+
+  }
+  /* ===================footer-section================================= */
+
+  .footer-container{
+    padding: 0px 50px;
+    background-color: #0f1941;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-heading h6{
+    padding: 20px 0px;
+    text-align: center;
+    font-size: 25px;
+
+
+  }
+  .footer-heading p{
+    text-align: center;
+  }
+  .footer-container h6{
+    color: #fff;
+  }
+  .footer-container p{
+    color: #fff;
+  }
+  .menu{
+    color: #fff;
+    text-align: center;
+  }
+  .menu p{
+    
+    padding-top: 50px;
+    border-bottom: 1px solid #fff;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+  }
+  .menu ul li{
+    line-height: 2;
+    list-style: none;
+    text-decoration: none;
+  }
+  .social-link{
+    font-size: 18px;
+    
+    color: #fff;
+    text-align: center;
+  }
+  .social-link .fa-brands{
+    padding: 30px;
+    text-align: center;
+  }
+ @media only screen and (max-width: 769px) {
+.main-project{
+    flex-direction: column;
+}
+.how-container{
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.footer-container{
+    flex-direction: column;
+}
+.connect-info .contact-overlay{
+
+width: 100%;
+}
+.project .overlay{
+       
+    width:100% ;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+   
+}
+.project img{
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+  }
+  @media only screen and (max-width: 400px) {
+
+    .connect-info .contact-overlay{
+       
+        width:100%;
+       
+        
+       
+    }
+    .connect-info .contact{
+        
+        position: absolute;
+        width: 100%;
+        top: 0px;
+        bottom: 0;
+        left: 0;
+        padding: 30px;
+    }
+    .connect-info h1,
+    .connect-info h6{
+    
+       
+        padding-bottom: 0px;
+        
+    }
+    .my-container{
+        padding: 30px;
+    }
+   
+    .contact-btn{
+    text-align: center;
+    padding-top: 0px;
+    }
+    .how-to-work{
+        background-color: #0f1941;
+        margin-top: 0px;
+    
+    }
+    .project .overlay{
+       
+        width:100% ;
+        height: 100%;
+        bottom: 0;
+        left: 0;
+       
+    }
+    .project img{
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+    }
+
+
+  }
